@@ -2309,9 +2309,9 @@ namespace ACESERVER
                                 MStruct.chestpoint[chestpoint].inactive_sprite_index = Convert.ToInt32(MStruct.tile[mapnum, x, y].Data2.Split(',')[3]);
                                 if (MStruct.tile[mapnum, x, y].Data3.Contains('?'))
                                 {
-                                    MStruct.chestpoint[chestpoint].is_random = true;
-                                    MStruct.chestpoint[chestpoint].reward = new string[0];
-                                    MStruct.chestpoint[chestpoint].reward[0] = MStruct.tile[mapnum, x, y].Data3.Split('?')[0];
+                                    //MStruct.chestpoint[chestpoint].is_random = true;
+                                    //MStruct.chestpoint[chestpoint].reward = new string[0];
+                                    //MStruct.chestpoint[chestpoint].reward[0] = MStruct.tile[mapnum, x, y].Data3.Split('?')[0];
                                 }
                                 else
                                 {
