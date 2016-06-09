@@ -28,3 +28,219 @@ A última atualização de recebimento aconteceu a 31 ms
 A última atualização de conexão aconteceu a 45 ms
 O último comando chamado no LOOP principal foi: TPP
 A última packet recebida foi: 
+Log do automático do servidor. Gerado na data 06/06/2016 20:56:55
+Existem 0 jogadores online.
+A última atualização de recebimento aconteceu a 16 ms
+A última atualização de conexão aconteceu a 21 ms
+O último comando chamado no LOOP principal foi: 
+A última packet recebida foi: 
+Log do automático do servidor. Gerado na data 06/06/2016 21:01:55
+Existem 0 jogadores online.
+A última atualização de recebimento aconteceu a 300219 ms
+A última atualização de conexão aconteceu a 192203 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: <0>0.8.0.1\<2>\<3>\
+Log do automático do servidor. Gerado na data 06/06/2016 21:06:56
+Existem 0 jogadores online.
+A última atualização de recebimento aconteceu a 600396 ms
+A última atualização de conexão aconteceu a 492356 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: <0>0.8.0.1\<2>\<3>\
+Log do automático do servidor. Gerado na data 06/06/2016 21:11:56
+Existem 0 jogadores online.
+A última atualização de recebimento aconteceu a 900553 ms
+A última atualização de conexão aconteceu a 792503 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: <0>0.8.0.1\<2>\<3>\
+Log do automático do servidor. Gerado na data 06/06/2016 21:16:56
+Existem 0 jogadores online.
+A última atualização de recebimento aconteceu a 1200615 ms
+A última atualização de conexão aconteceu a 1092600 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: <0>0.8.0.1\<2>\<3>\
+Log do automático do servidor. Gerado na data 06/06/2016 21:21:56
+Existem 0 jogadores online.
+A última atualização de recebimento aconteceu a 1500724 ms
+A última atualização de conexão aconteceu a 1392675 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: <0>0.8.0.1\<2>\<3>\
+Log do automático do servidor. Gerado na data 06/06/2016 21:26:56
+Existem 0 jogadores online.
+A última atualização de recebimento aconteceu a 1800949 ms
+A última atualização de conexão aconteceu a 1692910 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: <0>0.8.0.1\<2>\<3>\
+Log do automático do servidor. Gerado na data 06/06/2016 21:31:56
+Existem 0 jogadores online.
+A última atualização de recebimento aconteceu a 2101008 ms
+A última atualização de conexão aconteceu a 1992962 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: <0>0.8.0.1\<2>\<3>\
+Log do automático do servidor. Gerado na data 06/06/2016 21:36:56
+Existem 0 jogadores online.
+A última atualização de recebimento aconteceu a 2401084 ms
+A última atualização de conexão aconteceu a 2293037 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: <0>0.8.0.1\<2>\<3>\
+Log do automático do servidor. Gerado na data 06/06/2016 21:41:56
+Existem 0 jogadores online.
+A última atualização de recebimento aconteceu a 2701159 ms
+A última atualização de conexão aconteceu a 2593108 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: <0>0.8.0.1\<2>\<3>\
+Log do automático do servidor. Gerado na data 06/06/2016 21:46:57
+Existem 0 jogadores online.
+A última atualização de recebimento aconteceu a 3001260 ms
+A última atualização de conexão aconteceu a 2893211 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: <0>0.8.0.1\<2>\<3>\
+Log do automático do servidor. Gerado na data 06/06/2016 21:51:57
+Existem 0 jogadores online.
+A última atualização de recebimento aconteceu a 3301380 ms
+A última atualização de conexão aconteceu a 3193328 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: <0>0.8.0.1\<2>\<3>\
+Log do automático do servidor. Gerado na data 06/06/2016 21:56:57
+Existem 0 jogadores online.
+A última atualização de recebimento aconteceu a 3601462 ms
+A última atualização de conexão aconteceu a 3493415 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: <0>0.8.0.1\<2>\<3>\
+Log do automático do servidor. Gerado na data 06/06/2016 22:01:57
+Existem 0 jogadores online.
+A última atualização de recebimento aconteceu a 3901584 ms
+A última atualização de conexão aconteceu a 3793537 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: <0>0.8.0.1\<2>\<3>\
+Log do automático do servidor. Gerado na data 06/06/2016 22:06:57
+Existem 0 jogadores online.
+A última atualização de recebimento aconteceu a 4201711 ms
+A última atualização de conexão aconteceu a 4093660 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: <0>0.8.0.1\<2>\<3>\
+Log do automático do servidor. Gerado na data 06/06/2016 22:11:57
+Existem 0 jogadores online.
+A última atualização de recebimento aconteceu a 4501902 ms
+A última atualização de conexão aconteceu a 4393854 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: <0>0.8.0.1\<2>\<3>\
+Log do automático do servidor. Gerado na data 06/06/2016 22:16:57
+Existem 0 jogadores online.
+A última atualização de recebimento aconteceu a 4802024 ms
+A última atualização de conexão aconteceu a 4693973 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: <0>0.8.0.1\<2>\<3>\
+Log do automático do servidor. Gerado na data 06/06/2016 22:21:57
+Existem 0 jogadores online.
+A última atualização de recebimento aconteceu a 5102089 ms
+A última atualização de conexão aconteceu a 4994044 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: <0>0.8.0.1\<2>\<3>\
+Log do automático do servidor. Gerado na data 06/06/2016 22:26:58
+Existem 0 jogadores online.
+A última atualização de recebimento aconteceu a 5402307 ms
+A última atualização de conexão aconteceu a 5294251 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: <0>0.8.0.1\<2>\<3>\
+Log do automático do servidor. Gerado na data 06/06/2016 22:31:58
+Existem 0 jogadores online.
+A última atualização de recebimento aconteceu a 5702473 ms
+A última atualização de conexão aconteceu a 5594424 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: <0>0.8.0.1\<2>\<3>\
+Log do automático do servidor. Gerado na data 06/06/2016 22:36:58
+Existem 0 jogadores online.
+A última atualização de recebimento aconteceu a 6002755 ms
+A última atualização de conexão aconteceu a 5894711 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: <0>0.8.0.1\<2>\<3>\
+Log do automático do servidor. Gerado na data 06/06/2016 22:41:58
+Existem 0 jogadores online.
+A última atualização de recebimento aconteceu a 6302947 ms
+A última atualização de conexão aconteceu a 6194898 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: <0>0.8.0.1\<2>\<3>\
+Log do automático do servidor. Gerado na data 06/06/2016 22:46:58
+Existem 0 jogadores online.
+A última atualização de recebimento aconteceu a 6603136 ms
+A última atualização de conexão aconteceu a 6495087 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: <0>0.8.0.1\<2>\<3>\
+Log do automático do servidor. Gerado na data 06/06/2016 22:51:58
+Existem 0 jogadores online.
+A última atualização de recebimento aconteceu a 6903218 ms
+A última atualização de conexão aconteceu a 6795170 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: <0>0.8.0.1\<2>\<3>\
+Log do automático do servidor. Gerado na data 06/06/2016 22:56:59
+Existem 0 jogadores online.
+A última atualização de recebimento aconteceu a 7203418 ms
+A última atualização de conexão aconteceu a 7095370 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: <0>0.8.0.1\<2>\<3>\
+Log do automático do servidor. Gerado na data 06/06/2016 23:01:59
+Existem 0 jogadores online.
+A última atualização de recebimento aconteceu a 7503617 ms
+A última atualização de conexão aconteceu a 7395576 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: <0>0.8.0.1\<2>\<3>\
+Log do automático do servidor. Gerado na data 06/06/2016 23:06:59
+Existem 0 jogadores online.
+A última atualização de recebimento aconteceu a 7804017 ms
+A última atualização de conexão aconteceu a 7695967 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: <0>0.8.0.1\<2>\<3>\
+Log do automático do servidor. Gerado na data 06/06/2016 23:11:59
+Existem 0 jogadores online.
+A última atualização de recebimento aconteceu a 8104128 ms
+A última atualização de conexão aconteceu a 7996081 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: <0>0.8.0.1\<2>\<3>\
+Log do automático do servidor. Gerado na data 06/06/2016 23:16:59
+Existem 0 jogadores online.
+A última atualização de recebimento aconteceu a 8404263 ms
+A última atualização de conexão aconteceu a 8296218 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: <0>0.8.0.1\<2>\<3>\
+Log do automático do servidor. Gerado na data 09/06/2016 00:42:05
+Existem 0 jogadores online.
+A última atualização de recebimento aconteceu a 112 ms
+A última atualização de conexão aconteceu a 120 ms
+O último comando chamado no LOOP principal foi: 
+A última packet recebida foi: 
+Log do automático do servidor. Gerado na data 09/06/2016 00:42:19
+Existem 0 jogadores online.
+A última atualização de recebimento aconteceu a 40 ms
+A última atualização de conexão aconteceu a 47 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: 
+Log do automático do servidor. Gerado na data 09/06/2016 01:04:57
+Existem 0 jogadores online.
+A última atualização de recebimento aconteceu a 59 ms
+A última atualização de conexão aconteceu a 65 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: 
+Log do automático do servidor. Gerado na data 09/06/2016 01:05:08
+Existem 0 jogadores online.
+A última atualização de recebimento aconteceu a 35 ms
+A última atualização de conexão aconteceu a 40 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: 
+Log do automático do servidor. Gerado na data 09/06/2016 01:10:08
+Existem 1 jogadores online.
+A última atualização de recebimento aconteceu a 300239 ms
+A última atualização de conexão aconteceu a 219444 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: <14>\
+Log do automático do servidor. Gerado na data 09/06/2016 01:15:08
+Existem 1 jogadores online.
+A última atualização de recebimento aconteceu a 600338 ms
+A última atualização de conexão aconteceu a 519543 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: <14>\
+Log do automático do servidor. Gerado na data 09/06/2016 01:20:09
+Existem 1 jogadores online.
+A última atualização de recebimento aconteceu a 900602 ms
+A última atualização de conexão aconteceu a 819807 ms
+O último comando chamado no LOOP principal foi: TPP
+A última packet recebida foi: <15>2;5;9;0;14;Terras de Frivaw [54,55];0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;false;false;false;false;0;;;;;false;false;false;false;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;false;false;false;false;0;;;;;false;false;false;false;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;false;false;false;false;0;;;;;false;false;false;false;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;false;false;false;false;0;;;;;true;true;true;true;0;;;;;false;false;false;false;0;;;;;false;false;false;false;0;;;;;true;true;true;true;0;;;;;false;false;false;false;0;;;;;true;true;true;true;0;;;;;false;false;false;false;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;false;false;false;false;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;false;false;false;false;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;false;false;false;false;0;;;;;true;true;true;true;0;;;;;false;false;false;false;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;false;false;false;false;0;;;;;false;false;false;false;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;false;false;false;false;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;false;false;false;false;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;true;true;true;true;0;;;;;false;false;false;false;0;;;;;false;false;false;false;0;;;;;true;true;true;true;0;;;;;false;false;false;false;0;;;;;true;true;true;true;\

@@ -11,7 +11,10 @@ namespace ACESERVER
         public static int Player_HighIndex = 0;
         public const int Item_HighIndex = 0;
         //class Basic
-        public const int Max_Classes = 4;
+        public const int Max_Classes = 6;
+        public static int[] classes_data;
+
+
         //map basic
         public const int InitialMap = 1;
         public const byte InitialX = 10;

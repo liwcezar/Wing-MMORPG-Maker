@@ -8,6 +8,7 @@ namespace ACESERVER
     class PStruct
     {
         public static PStruct.Player[] player = new PStruct.Player[Globals.MaxPlayers];
+        public static PStruct.ClassData[] classes = new PStruct.ClassData[Globals.MaxClasses + 1];
         public static PStruct.Character[,] character = new PStruct.Character[Globals.MaxPlayers, 3];
         public static PStruct.TempPlayer[] tempplayer = new PStruct.TempPlayer[Globals.MaxPlayers];
         public static PStruct.Skill[,] skill = new PStruct.Skill[Globals.MaxPlayers, 17];
@@ -38,6 +39,18 @@ namespace ACESERVER
             public int skin_count;
             public bool[] skin;
             public FriendList[] friend;
+        }
+
+        public struct ClassData
+        {
+            public string[] sprite_name;
+            public int[] sprite_index;
+            public int fire;
+            public int earth;
+            public int water;
+            public int wind;
+            public int dark;
+            public int light;
         }
 
         public struct FriendList

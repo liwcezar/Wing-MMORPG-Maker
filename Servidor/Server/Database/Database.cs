@@ -11,6 +11,40 @@ namespace ACESERVER
 {
     class Database
     {
+        public static void DEFINE_CLASSES_DATA()
+        {
+            //    bw.Write(fire + extrafire);
+            //    bw.Write(earth + extraearth);
+            // bw.Write(water + extrawater);
+            //   bw.Write(wind + extrawind);
+            //  bw.Write(dark + extradark);
+            //  bw.Write(light + extralight);//
+            string[] temp;
+            StreamReader s = new StreamReader(AppDomain.CurrentDomain.BaseDirectory + "\\Config\\classes_info.txt");
+            s.ReadLine();
+
+            for (int i = 1; i <= Globals.Max_Classes; i++)
+            {
+                PStruct.classes[i].fire = Convert.ToInt32(s.ReadLine().Split(':')[1]);
+                PStruct.classes[i].earth = Convert.ToInt32(s.ReadLine().Split(':')[1]);
+                PStruct.classes[i].water = Convert.ToInt32(s.ReadLine().Split(':')[1]);
+                PStruct.classes[i].wind = Convert.ToInt32(s.ReadLine().Split(':')[1]);
+                PStruct.classes[i].dark = Convert.ToInt32(s.ReadLine().Split(':')[1]);
+                PStruct.classes[i].light = Convert.ToInt32(s.ReadLine().Split(':')[1]);
+                temp = s.ReadLine().Split(':')[1].Split(';');
+                PStruct.classes[i].sprite_name = new string[2];
+                PStruct.classes[i].sprite_index = new int[2];
+                PStruct.classes[i].sprite_name[0] = temp[0];
+                PStruct.classes[i].sprite_index[0] = Convert.ToInt32(temp[1]);
+                temp = s.ReadLine().Split(':')[1].Split(';');
+                PStruct.classes[i].sprite_name[1] = temp[0];
+                PStruct.classes[i].sprite_index[1] = Convert.ToInt32(temp[1]);
+                s.ReadLine();
+            }
+
+            s.Close();
+
+        }
         public static string GET_SMTP_SERVER()
         {
             StreamReader s = new StreamReader(AppDomain.CurrentDomain.BaseDirectory + "\\Config\\smtp_server.txt");
@@ -1297,131 +1331,15 @@ namespace ACESERVER
                         return false;
                     }
 
-                    string sprite = "";
-                    int spriteindex = 0;
+                    string sprite = PStruct.classes[classid].sprite_name[gender];
+                    int spriteindex = PStruct.classes[classid].sprite_index[gender];
 
-                    int extrafire = 0;
-                    int extraearth = 0;
-                    int extrawater = 0;
-                    int extrawind = 0;
-                    int extradark = 0;
-                    int extralight = 0;
-
-                    if (classid == 1)
-                    {
-                        extrafire = 3;
-                        extraearth = 4;
-                        extrawater = 1;
-                        extrawind = 5;
-                        extradark = 16;
-                        extralight = 11;
-
-                        if (gender == 0)
-                        {
-                            sprite = "Actor_KH01"; spriteindex = 6;
-                        }
-                        else
-                        {
-                            sprite = "Actor_KH01"; spriteindex = 7;
-                        }
-                    }
-
-                    if (classid == 2)
-                    {
-                        extrafire = 7;
-                        extraearth = 12;
-                        extrawater = 2;
-                        extrawind = 8;
-                        extradark = 8;
-                        extralight = 3;
-
-                        if (gender == 0)
-                        {
-                            sprite = "Actor_KH01"; spriteindex = 0;
-                        }
-                        else
-                        {
-                            sprite = "Actor_KH01"; spriteindex = 1;
-                        }
-                    }
-
-                    if (classid == 3)
-                    {
-                        extrafire = 5;
-                        extraearth = 8;
-                        extrawater = 2;
-                        extrawind = 5;
-                        extradark = 10;
-                        extralight = 10;
-
-                        if (gender == 0)
-                        {
-                            sprite = "Actor_KH02"; spriteindex = 0;
-                        }
-                        else
-                        {
-                            sprite = "Actor_KH02"; spriteindex = 1;
-                        }
-                    }
-
-                    if (classid == 4)
-                    {
-                        extrafire = 5;
-                        extraearth = 5;
-                        extrawater = 12;
-                        extrawind = 10;
-                        extradark = 6;
-                        extralight = 2;
-
-                        if (gender == 0)
-                        {
-                            sprite = "Actor_KH04"; spriteindex = 0;
-                        }
-                        else
-                        {
-                            sprite = "Actor_KH04"; spriteindex = 1;
-                        }
-                    }
-
-
-                    if (classid == 5)
-                    {
-                        extrafire = 4;
-                        extraearth = 15;
-                        extrawater = 1;
-                        extrawind = 1;
-                        extradark = 4;
-                        extralight = 15;
-
-                        if (gender == 0)
-                        {
-                            sprite = "Actor_KH02"; spriteindex = 2;
-                        }
-                        else
-                        {
-                            sprite = "Actor_KH02"; spriteindex = 3;
-                        }
-                    }
-
-                    if (classid == 6)
-                    {
-                        extrafire = 4;
-                        extraearth = 3;
-                        extrawater = 10;
-                        extrawind = 20;
-                        extradark = 1;
-                        extralight = 2;
-
-                        if (gender == 0)
-                        {
-                            sprite = "Actor_KH04"; spriteindex = 6;
-                        }
-                        else
-                        {
-                            sprite = "Actor_KH04"; spriteindex = 7;
-                        }
-                    }
-
+                    int extrafire = PStruct.classes[classid].fire;
+                    int extraearth = PStruct.classes[classid].earth;
+                    int extrawater = PStruct.classes[classid].water;
+                    int extrawind = PStruct.classes[classid].wind;
+                    int extradark = PStruct.classes[classid].dark;
+                    int extralight = PStruct.classes[classid].light;
 
                     //grava os dados no arquivo
                     bw.Write(name);

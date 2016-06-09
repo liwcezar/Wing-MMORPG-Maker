@@ -648,6 +648,9 @@ namespace ACESERVER
             Log("Carregando Guildas...");
             Database.LoadGuilds();
             Log("Carregado.");
+            Log("Carregando Classes...");
+            Database.DEFINE_CLASSES_DATA();
+            Log("Carregado.");
             Log("");
             Log("Definingo váriaveis...");
             rdn = new Random();
