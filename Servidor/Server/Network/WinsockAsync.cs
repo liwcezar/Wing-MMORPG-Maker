@@ -13,35 +13,39 @@ using System.Threading;
 
 namespace ACESERVER
 {
-    // State object for reading client data asynchronously
+    // Objeto assíncrono
     public class StateObject
     {
-        // Client  socket.
+        // Socket do cliente.
         public Socket Async {get ; set;}
-        // Size of receive buffer.
+        // Tamanho do receive buffer.
         public const int BufferSize = 1202048;
-        // Receive buffer.
+        // Receive buffer. !importante
         public byte[] buffer = new byte[BufferSize];
-        // Received data string.
+        // Para receber strings e processar.
         public StringBuilder sb = new StringBuilder();
-        //Client index
+        // Index do cliente
         public int clientid { get; set; }
         public StateObject(Socket t, int i) { Async = t; clientid = i; }
-        //
+        // Informações sobre status do jogador na conexão
         public bool IsConnected { get; set; }
         public int Index { get; set; }
     }
     class WinsockAsync
     {
+        // Conexão básica do servidor
         public static Socket listener;
         public static List<StateObject> Clients;
-        // Thread signal.
+        // Thread 
         public static ManualResetEvent allDone = new ManualResetEvent(false);
+        // Usado para valores aleatórios
         public static Random rdn;
+        // Mensagem simples
         public static string Motd = "Bem vindo a " + Globals.GAME_NAME + "!";
+        // Obsoleto agora
         public static string[] connected = new string[] { };
         //public void Send(Socket sck, string message, Encoding encoding);
-        static ConsoleEventDelegate event_handler;   // Keeps it from getting garbage collected
+        static ConsoleEventDelegate event_handler; 
         // Pinvoke
         private delegate bool ConsoleEventDelegate(int eventType);
         [DllImport("kernel32.dll", SetLastError = true)]
@@ -666,36 +670,33 @@ namespace ACESERVER
             //Clientes
             Clients = new List<StateObject>(100);
 
-            // Create the thread object, passing in the Alpha.Beta method
-            // via a ThreadStart delegate. This does not start the thread.
+            // Iniciar uma nova thread, isso não vai iniciar ela ainda.
             Thread sThread = new Thread(new ThreadStart(Loops.BetaLoop));
 
-            // Start the thread
+            // Iniciar a Thread
             sThread.Start();
 
             //Iniciar conexão
             // Data buffer for incoming data.
             byte[] bytes = new Byte[1024];
 
-            // Establish the local endpoint for the socket.
-            // The DNS name of the computer
-            // running the listener is "host.contoso.com".
+            // Estabelece o local de fuga para a socket
+            // Obter o nome de DNS do servidor em seguida
             IPHostEntry ipHostInfo = Dns.GetHostEntry(Dns.GetHostName());
             IPAddress ipAddress = IPAddress.Any;//ipHostInfo.AddressList[0];
             IPEndPoint localEndPoint = new IPEndPoint(ipAddress, 8000);
 
-            // Create a TCP/IP socket.
+            // Creia uma socket TCP/IP.
             listener = new Socket(AddressFamily.InterNetwork,
             SocketType.Stream, ProtocolType.Tcp);
             listener.Bind(localEndPoint);
             listener.Listen(100);
             listener.NoDelay = true;
 
-            // Create the thread object, passing in the Alpha.Beta method
-            // via a ThreadStart delegate. This does not start the thread.
+            // Cria a Thread principal.
             Thread lThread = new Thread(new ThreadStart(Listen));
 
-            // Start the thread
+            // Iniciar a Thread principal
             lThread.Start();
 
             //Loop principal
@@ -724,20 +725,19 @@ namespace ACESERVER
         }
         public static void Listen()
         {
-            // Bind the socket to the local endpoint and listen for incoming connections.
             try
             {
                 while (true)
                 {
-                    // Set the event to nonsignaled state.
+                    // Seta o evento para o status neutro
                     allDone.Reset();
 
-                    // Start an asynchronous socket to listen for connections.
+                    // Inicia um listener assíncrono para ouvir as conexões.
                     listener.BeginAccept(
                         new AsyncCallback(AcceptCallback),
                         listener);
 
-                    // Wait until a connection is made before continuing.
+                    // Esperar uma conexão surgir para seguir.
                     allDone.WaitOne();
 
                     Thread.Sleep(10);
@@ -803,11 +803,11 @@ namespace ACESERVER
             //WinsockAnsyc.Clients[Clients.Count() - 1].ListIndex = Clients.Count() - 1;
             Log(String.Format("Cliente conectado: {0}", Clients.Count() - 1));
 
-            // Create the state object.
+            // Cria o objeto de conexão do jogador
             Clients[Clients.Count - 1].Async.BeginReceive(Clients[Clients.Count - 1].buffer, 0, StateObject.BufferSize, 0,
                 new AsyncCallback(ReadCallback), Clients[Clients.Count - 1]);
         }
-        // FIONREAD is also available as the "Available" property.
+        // FIONREAD é equivalente a informação disponível.
         public const int FIONREAD = 0x4004667F;
 
         public static int GetPendingByteCount(Socket s)
@@ -816,7 +816,7 @@ namespace ACESERVER
             {
                 byte[] outValue = BitConverter.GetBytes(0);
 
-                // Check how many bytes have been received.
+                // Checa quantos bytes foram recebidos
                 s.IOControl(FIONREAD, null, outValue);
 
                 int bytesAvailable = BitConverter.ToInt32(outValue, 0);
@@ -916,10 +916,10 @@ namespace ACESERVER
                 //Conectado?
                 if (Clients[clientid].IsConnected)
                 {
-                    // Convert the string data to byte data using ASCII encoding.
+                    // Converte a string para byte
                     byte[] byteData = Encoding.UTF8.GetBytes(data);
 
-                    // Begin sending the data to the remote device.
+                    // Envia a informação para o cliente
                     Clients[clientid].Async.BeginSend(byteData, 0, byteData.Length, 0,
                         new AsyncCallback(SendCallback), Clients[clientid].Async);
                 }
@@ -934,10 +934,10 @@ namespace ACESERVER
         {
             try
             {
-                // Retrieve the socket from the state object.
+                // Socket do cliente
                 Socket handler = (Socket)ar.AsyncState;
 
-                // Complete sending the data to the remote device.
+                // Completa o envio
                 int bytesSent = handler.EndSend(ar);
             }
             catch (Exception e)

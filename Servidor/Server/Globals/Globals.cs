@@ -168,7 +168,7 @@ namespace ACESERVER
         //Versão atual do jogo
         public static string Client_Version = "0.8.0.1";
 
-        //Function to get random number
+        //Função para pegar um valor aleatório
         private static readonly Random getrandom = new Random();
         private static readonly object syncLock = new object();
 

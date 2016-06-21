@@ -18,13 +18,13 @@ namespace ACESERVER
                 bool Connected;
                 Connected = true;
 
-                // Detect if client disconnected
+                // Detectar se o cliente está desconectado
                 if (WinsockAsync.Clients[clientid].Async.Poll(1000, SelectMode.SelectRead))
                 {
                     byte[] buff = new byte[1];
                     if (WinsockAsync.Clients[clientid].Async.Receive(buff, SocketFlags.Peek) == 0)
                     {
-                        // Client disconnected
+                        // Cliente desconectado
                         Connected = false;
                     }
                 }
