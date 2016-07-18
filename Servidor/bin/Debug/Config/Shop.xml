@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Shop>
+  <Map1>
+    <x>9</x>
+    <y>7</y>
+    <item_cout>2</item_cout>
+  </Map1>
+  <Map2>
+    <x>12</x>
+    <y>2</y>
+    <item_cout>2</item_cout>
+  </Map2>
+  <Map3>
+    <x>33</x>
+    <y>8</y>
+    <item_cout>2</item_cout>
+  </Map3>
+  <Map4>
+    <x>12</x>
+    <y>14</y>
+    <item_cout>2</item_cout>
+  </Map4>
+</Shop>
